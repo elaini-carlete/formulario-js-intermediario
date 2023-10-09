@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario.imagem-fundo{
+    background-image: url(../image/background.jpg);
+    background-size: contain;
+    width: 100vw;
+    height: 100%;
+}
+
+.formulario .conteudo{
+    max-width: 300px;
+    max-height: 110px;
+    color: #ffffff;
+    margin-right: 60px;
+}
+
+.formulario .conteudo .titulo{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.formulario .conteudo .subtitulo{
+    font-size: 1.5rem;
+}
+
+.formulario .formulário-com-validacao{
+    background-color: #ffffff;
+    width: 340px;
+    height: 378px;
+    padding: 10px 20px;
+}
+
+.formulario .formulário-com-validacao .form .input-text{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.6rem;
+    width: 300px;
+    height: 35px;
+    margin: 4px 0;
+    border: 1px solid #000000;
+}
+
+.formulario .formulário-com-validacao .form input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.formulario .formulário-com-validacao .form .input-text.mensagem{
+    height: 100px;
+    resize: none;
+}
+
+.formulario .formulário-com-validacao .final-formulario .aviso{
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.formulario .formulário-com-validacao .final-formulario .btn-formulario{
+    border-radius: 5px;
+    border: none;
+    background-color: #3CCC87;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.formulario .formulário-com-validacao .form .input-text.campo-nao-preenchido{
+    border: 1px solid #F52E2E;
+}
+
+.formulario .formulário-com-validacao .form .input-text.campo-preenchido{
+    border: 1px solid #00C22B;
+}
+
+.formulario .formulário-com-validacao .form span{
+    color: #F52E2E;
+    font-size: 0.8rem; 
+}
+
+.formulario .formulário-com-validacao .form .campo-obrigatorio{
+    visibility: hidden;
+}

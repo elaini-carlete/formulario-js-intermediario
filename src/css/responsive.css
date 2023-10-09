@@ -1,0 +1,37 @@
+@media(max-width: 768px){
+    .formulario{
+        flex-direction: column;
+    }
+
+    .formulario .conteudo{
+        margin-left: 70px;
+        margin-bottom: 60px;
+        width: 350px;
+    }
+}
+
+@media(max-width: 425px){
+    .formulario .formulário-com-validacao{
+        width: 300px;
+        height: 330px;
+    }
+
+    .formulario .formulário-com-validacao .form .input-text{
+        font-size: 1.2rem;
+        width: 260px;
+        height: 30px;
+        margin: 1px 0;
+    }
+
+    .formulario .formulário-com-validacao .form .input-text.mensagem{
+        height: 96px;
+    }
+
+    .formulario .formulário-com-validacao .final-formulario .aviso{
+        font-size: 1.2rem;
+    }
+
+    .formulario .formulário-com-validacao .final-formulario .btn-formulario{
+        width: 260px;
+    }
+}
