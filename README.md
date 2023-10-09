@@ -1,5 +1,5 @@
 # Formulário com Validação
-## Desafio HTML, CSS e JS intermediário
+- Desafio HTML, CSS e JS intermediário
 - Realizado no curso DevQuest
 
 ## Objetivo
